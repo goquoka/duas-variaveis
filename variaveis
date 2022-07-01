@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+int numero1 = 4;
+int numero2 = 5;
+int numero3 = 6;
+if (numero1 < numero2) {
+System.out.println("2 é maior");
+}else{
+System.out.println("1 é maior");
+}
+if (numero3 > numero2)  {
+System.out.println("3 é maior");
+}else{
+System.out.println("2 é maior");
+}
+if (numero1 < numero3)  {
+System.out.println("3 é maior");
+}else{
+System.out.println("1 é maior");
+  }
+ }  
+}
